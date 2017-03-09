@@ -1,0 +1,39 @@
+.before-table {
+
+}
+
+table{
+    margin-top: 50px;
+    width: 100%;
+    /*background: #feff78;*/
+}
+
+th{
+    background: #953212;
+}
+
+td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table, tr{
+    border-collapse: collapse;
+    border-color: transparent;
+}
+
+tr.body-row:nth-child(2n){
+    background-color: #fff3b4;
+}
+tr.body-row:nth-child(2n-1){
+    background-color: #fcffb7;
+}
+
+td.td-last-cells {
+    background-color: silver;
+    text-align: center;
+}
+
+td a:visited, td a:link{
+    color: #b3ff50;
+}
